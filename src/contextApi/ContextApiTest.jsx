@@ -4,7 +4,7 @@ import UserContext from "./UserContext";
 const ContextApiTest = () => {
   let [test, setTest] = useState("");
   let { name, setName } = useContext(UserContext);
-//   let { theme, setTheme } = useContext(UserContext);
+  //   let { theme, setTheme } = useContext(UserContext);
 
   let handleInput = (e) => {
     setTest(e.target.value);
@@ -15,9 +15,9 @@ const ContextApiTest = () => {
     setTest("");
   };
 
-//   let toggleTheme=()=>{
-//     setTheme(theme==="light"?"dark":"light")
-//   }
+  //   let toggleTheme=()=>{
+  //     setTheme(theme==="light"?"dark":"light")
+  //   }
   return (
     <div>
       <div className="py-3 flex items-center gap-2">

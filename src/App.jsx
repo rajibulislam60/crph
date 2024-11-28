@@ -2,6 +2,8 @@ import React from "react";
 import Bubbling from "./propBubbling/bubbling";
 import ContextApiTest from "./contextApi/ContextApiTest";
 import ContextTheme from "./contextApi/ContextTheme";
+import TestApi from "./singlepageContextApi/TestApi";
+
 
 const App = () => {
   return (
@@ -9,6 +11,7 @@ const App = () => {
       <Bubbling />
       <ContextApiTest />
       <ContextTheme/>
+      <TestApi/>
     </div>
   );
 };
